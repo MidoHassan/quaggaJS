@@ -13,7 +13,7 @@ import {merge} from 'lodash';
 const vec2 = {
     clone: require('gl-vec2/clone')
 };
-
+console.log("Here");
 var _inputStream,
     _framegrabber,
     _stopped,
