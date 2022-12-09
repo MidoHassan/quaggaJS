@@ -484,6 +484,8 @@ export default {
         start();
     },
     stop: function() {
+        console.log("Here");
+
         _stopped = true;
         adjustWorkerPool(0);
         if (_config.inputStream.type === "LiveStream") {
